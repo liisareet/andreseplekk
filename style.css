@@ -29,9 +29,9 @@ h1,h2,h3{font-family:"Archivo"; font-weight:800; letter-spacing:-.01em; line-hei
 .lang b{color:var(--ink); font-weight:600}
 .hdr-call{text-decoration:none; font-weight:600; letter-spacing:.02em; white-space:nowrap}
 .hero{position:relative; min-height:92svh; display:flex; align-items:flex-end; color:#fff; overflow:hidden}
-.hero::before{content:""; position:absolute; inset:0; background:url('images/plekk-10.webp') center/cover no-repeat; transform:scale(1.02)}
+.hero::before{content:""; position:absolute; inset:0; background:url('images/hero.webp') center/cover no-repeat; transform:scale(1.02)}
 .hero::after{content:""; position:absolute; inset:0;
-  background:linear-gradient(180deg,rgba(20,22,24,.34) 0%,rgba(20,22,24,.12) 38%,rgba(20,22,24,.78) 100%)}
+  background:linear-gradient(180deg,rgba(20,22,24,.30) 0%,rgba(20,22,24,.16) 45%,rgba(20,22,24,.60) 100%)}
 .hero .wrap{position:relative; z-index:2; padding-bottom:clamp(2.6rem,7vh,5rem); padding-top:7rem}
 .hero .eyebrow{color:rgba(255,255,255,.82); margin-bottom:1.1rem}
 .hero h1{font-size:clamp(2.7rem,10vw,5.6rem); max-width:14ch}
